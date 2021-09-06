@@ -1,0 +1,62 @@
+/*Template for new items in index.html*/
+/*<div class="st">
+  <img src="#" alt="" id="st_id">
+  <figcaption><a href="#" target="_blank">Image by <!--insert name--></a></figcaption>
+  <h3><!--Random Stuff--></h3>
+  <a id="buy_bt" href="#" target="_blank">Buy Here</a>
+</div>*/
+
+
+
+/*basic general stuff; color themes and all that*/
+* {
+  box-sizing: border-box;
+  width: 100%;
+  margin: auto;
+  text-align: center;
+  text-decoration: none;
+  font-family: Verdana, sans-serif;
+}
+
+nav {
+  background-color: #2D3846;
+  color: #FFFFFF;
+  padding: 1.1em;
+}
+
+body p {
+  line-height: 1.5em;
+}
+
+footer {
+  position: absolute;
+  bottom: 0;
+  background-color: #2D3846;
+  color: #FFFFFF;
+  padding: 1em;
+}
+
+nav a {
+  color: #1E7A00;
+}
+
+@media screen and (min-width: 481px) {
+  nav {
+    display: flex;
+    margin-bottom: 1em;
+  }
+  nav a {
+    width: 20%;
+    border-style: solid;
+    border-color: #FFFFFF;
+    color: #FFFFFF;
+    border-radius: 2em;
+    padding: 0.5em;
+  }
+
+  nav a:hover {
+    color: #FFFFFF;
+    background-color: #F20000;
+    border-color: #F20000;
+  }
+}

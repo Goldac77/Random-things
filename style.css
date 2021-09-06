@@ -1,0 +1,238 @@
+/*basic general stuff; color themes and all that*/
+* {
+  box-sizing: border-box;
+  width: 100%;
+  margin: auto;
+  text-align: center;
+  text-decoration: none;
+  font-family: Verdana, sans-serif;
+}
+
+figcaption a {
+  color: #585858;
+}
+
+nav {
+  background-color: #2D3846;
+  color: #FFFFFF;
+  padding: 1.1em;
+}
+
+#buy_bt {
+  font-family: sans-serif;
+  color: #FFFFFF;
+  background-color: #1E7A00;
+  padding: 0.5em 1.5em 0.5em 1.5em;
+  border-radius: 0.7em;
+}
+
+#buy_bt:hover {
+  background-color: #149EF2;
+}
+
+.more {
+  margin-bottom: 1em;
+  font-weight: bold;
+}
+
+footer {
+  background-color: #2D3846;
+  color: #FFFFFF;
+  padding: 1em;
+}
+
+
+/*for mobile phone users*/
+@media screen and (max-width: 480px) {
+  nav {
+    margin-bottom: 1em;
+  }
+
+  nav a {
+    color: #1E7A00;
+  }
+
+  .st {
+    width: 95%;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    margin-bottom: 4.2em;
+    padding-bottom: 1em;
+  }
+
+  .st h3 {
+    margin: 1em 0 1.2em 0;
+  }
+
+}
+
+
+/*for iPads and Tablet users*/
+@media screen and (min-width: 481px) and (max-width: 768px) {
+  nav {
+    margin-bottom: 1em;
+    display: flex;
+  }
+
+  nav a {
+    width: 20%;
+    border-style: solid;
+    border-color: #FFFFFF;
+    color: #FFFFFF;
+    border-radius: 2em;
+  }
+
+  nav a:hover {
+    color: #FFFFFF;
+    background-color: #1E7A00;
+    border-color: #1E7A00;
+  }
+
+  main {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+
+  .st {
+    width: 40%;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    margin-bottom: 4.2em;
+    padding-bottom: 1em;
+    margin-left: 1.7em;
+    margin-right: 1.7em;
+  }
+
+  .st h3 {
+    margin: 0.5em 0 1.2em 0;
+  }
+}
+
+/*for samll screens and laptop users */
+@media screen and (min-width: 769px) and (max-width: 1024px) {
+  nav {
+    margin-bottom: 1em;
+    display: flex;
+  }
+
+  nav a {
+    width: 20%;
+    border-style: solid;
+    border-color: #FFFFFF;
+    color: #FFFFFF;
+    border-radius: 2em;
+    padding: 0.5em 0 0.5em 0;
+  }
+
+  nav a:hover {
+    color: #FFFFFF;
+    background-color: #1E7A00;
+    border-color: #1E7A00;
+  }
+
+  main {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+
+  .st {
+    width: 40%;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    margin-bottom: 4.2em;
+    padding-bottom: 1em;
+    margin-left: 1.7em;
+    margin-right: 1.7em;
+  }
+
+  .st h3 {
+    margin: 0.5em 0 1.2em 0;
+  }
+}
+
+/*for desktops and large screen users*/
+@media screen and (min-width: 1025px) and (max-width: 1200px) {
+  nav {
+    margin-bottom: 1em;
+    display: flex;
+  }
+
+  nav a {
+    width: 20%;
+    border-style: solid;
+    border-color: #FFFFFF;
+    color: #FFFFFF;
+    border-radius: 2em;
+    padding: 0.5em 0 0.5em 0;
+  }
+
+  nav a:hover {
+    color: #FFFFFF;
+    background-color: #1E7A00;
+    border-color: #1E7A00;
+  }
+
+  main {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+
+  .st {
+    width: 43%;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    margin-bottom: 4.2em;
+    padding-bottom: 1em;
+    margin-left: 1.7em;
+    margin-right: 1.7em;
+  }
+
+  .st h3 {
+    margin: 0.5em 0 1.2em 0;
+  }
+}
+
+/*for TV and extra-large screen users*/
+@media screen and (min-width: 1201px) {
+  nav {
+    margin-bottom: 1em;
+    display: flex;
+  }
+
+  nav a {
+    width: 20%;
+    border-style: solid;
+    border-color: #FFFFFF;
+    color: #FFFFFF;
+    border-radius: 2em;
+    padding: 0.5em 0 0.5em 0;
+  }
+
+  nav a:hover {
+    color: #FFFFFF;
+    background-color: #1E7A00;
+    border-color: #1E7A00;
+  }
+
+  main {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+
+  .st {
+    width: 28%;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    margin-bottom: 4.2em;
+    padding-bottom: 1em;
+    margin-left: 1.7em;
+    margin-right: 1.7em;
+  }
+
+  .st h3 {
+    margin: 0.5em 0 1.2em 0;
+  }
+}
