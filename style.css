@@ -24,6 +24,10 @@ nav {
   padding: 1.1em;
 }
 
+form {
+  visibility: hidden;
+}
+
 form button:hover {
   background-color: #245D34;
   cursor: pointer;
