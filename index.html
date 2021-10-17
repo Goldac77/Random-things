@@ -3,14 +3,20 @@
   <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <link rel="icon" href="pics/logo-x.png" type="image/x-icon">
     <link rel="stylesheet" href="style.css">
+    <script src="script.js" charset="utf-8"></script>
     <title>random stuff people want to buy</title>
   </head>
   <body>
+    <h1>Random Stuff People Want to Buy</h1>
     <nav id="nav">
-      <h1>Random Stuff People Want to Buy</h1>
       <a href="about.html">About</a>
+      <form class="search">
+        <input id="search" type="text" name="search" value="" placeholder="Search...">
+        <button id="search_bt" type="button" name="button" onclick="selectText()"><i class="fa fa-search"></i></button>
+      </form>
     </nav>
 
     <main>
@@ -101,7 +107,7 @@
       <div class="st">
         <img src="pics/3d_printer.jpg" alt="3d Printer" id="st_id">
         <figcaption><a href="https://unsplash.com/photos/HsefvbLbNWc?utm_source=unsplash&utm_medium=referral&utm_content=creditShareLink" target="_blank">Image by Kadir Celep</a></figcaption>
-        <h3>3d Printer</h3>
+        <h3>3D Printer</h3>
         <a id="buy_bt" href="https://www.ubuy.com.gh/brand/3d-printer" target="_blank">Buy Here</a>
       </div>
       <div class="st">
@@ -109,6 +115,12 @@
         <figcaption><a href="https://unsplash.com/photos/aipOEB8G5kc?utm_source=unsplash&utm_medium=referral&utm_content=creditShareLink" target="_blank">Image by Nathaniel Tetteh</a></figcaption>
         <h3>African Style Clothing</h3>
         <a id="buy_bt" href="https://wearghana.com/" target="_blank">Buy Here</a>
+      </div>
+      <div class="st">
+        <img src="pics/cookware.jpg" alt="Cookware" id="st_id">
+        <figcaption><a href="https://unsplash.com/photos/x5SRhkFajrA?utm_source=unsplash&utm_medium=referral&utm_content=creditShareLink" target="_blank">Image by Todd Quackenbush</a></figcaption>
+        <h3>Cooking Utensils</h3>
+        <a id="buy_bt" href="https://www.napevltd.com/collections/cookware" target="_blank">Buy Here</a>
       </div>
     </main>
     <div class="more">
