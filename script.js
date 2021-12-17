@@ -1,13 +1,11 @@
-var input = document.getElementById("search");
+var input = document.getElementById("search").value;
 input.addEventListener("keyup", function(event) {
+  event.preventDefault();
   if (event.keyCode === 13) {
-   event.preventDefault();
    document.getElementById("search_bt").click();
   }
 });
 
-function selectText() {
-  var input = document.getElementById('search');
-  window.find(input.value)  //highlight desired text
-  window.getSelection().removeAllRanges();  //remover highlighted text
-};
+function test() {
+  alert("Hello World!");
+}
